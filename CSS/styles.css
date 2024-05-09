@@ -1,0 +1,835 @@
+@import url("https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@400;700&display=swap");
+/* COLORS */
+body {
+  font-family: "Gowun Batang", serif;
+}
+body header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column wrap;
+          flex-flow: column wrap;
+  width: 100%;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  place-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 30px 0px;
+}
+body header .internal-header {
+  margin: 0 auto;
+  height: 80%;
+  width: 92.5%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column wrap;
+          flex-flow: column wrap;
+  gap: 25px;
+}
+body header .internal-header > :nth-child(1) {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+body header .internal-header > :nth-child(1) > :nth-child(1) {
+  width: 100%;
+  max-width: 70vh;
+}
+body header .internal-header > :nth-child(1) > :nth-child(1) img {
+  width: 100%;
+}
+body header .internal-header > :nth-child(1) > :nth-child(2) {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 2vh;
+}
+body header .internal-header > :nth-child(1) > :nth-child(2) > :nth-child(1) span {
+  font-size: 16px;
+  font-weight: 700;
+}
+body header .internal-header > :nth-child(1) > :nth-child(2) > :nth-child(2) {
+  width: 100%;
+  max-width: 5vh;
+}
+body header .internal-header > :nth-child(1) > :nth-child(2) > :nth-child(2) img {
+  width: 100%;
+}
+body header .internal-header > :nth-child(2) h1 {
+  font-weight: 800;
+  font-size: 25px;
+}
+body header .internal-header > :nth-child(2) p {
+  font-size: 20px;
+}
+
+@media (max-width: 1160px) {
+  body header {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column wrap;
+            flex-flow: column wrap;
+    width: 100%;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    place-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: 25px 0px;
+  }
+  body header .internal-header {
+    margin: 0 auto;
+    height: 80%;
+    width: 92.5%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column wrap;
+            flex-flow: column wrap;
+    gap: 22.5px;
+  }
+  body header .internal-header > :nth-child(1) {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: row wrap;
+            flex-flow: row wrap;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  body header .internal-header > :nth-child(1) > :nth-child(1) {
+    width: 100%;
+    max-width: 55vh;
+  }
+  body header .internal-header > :nth-child(1) > :nth-child(1) img {
+    width: 100%;
+  }
+  body header .internal-header > :nth-child(1) > :nth-child(2) {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: row wrap;
+            flex-flow: row wrap;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    gap: 1.8vh;
+  }
+  body header .internal-header > :nth-child(1) > :nth-child(2) > :nth-child(1) span {
+    font-size: 15px;
+    font-weight: 700;
+  }
+  body header .internal-header > :nth-child(1) > :nth-child(2) > :nth-child(2) {
+    width: 100%;
+    max-width: 4.5vh;
+  }
+  body header .internal-header > :nth-child(1) > :nth-child(2) > :nth-child(2) img {
+    width: 100%;
+  }
+  body header .internal-header > :nth-child(2) h1 {
+    font-weight: 800;
+    font-size: 25px;
+  }
+  body header .internal-header > :nth-child(2) p {
+    font-size: 20px;
+  }
+}
+@media (max-width: 860px) {
+  body header {
+    padding: 22.5px 0px;
+  }
+  body header .internal-header {
+    margin: 0 auto;
+    height: 80%;
+    width: 92.5%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column wrap;
+            flex-flow: column wrap;
+    gap: 22.5px;
+  }
+  body header .internal-header > :nth-child(1) {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column wrap;
+            flex-flow: column wrap;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    gap: 2vh;
+  }
+  body header .internal-header > :nth-child(1) > :nth-child(1) {
+    width: 100%;
+    max-width: 50vh;
+  }
+  body header .internal-header > :nth-child(1) > :nth-child(1) img {
+    width: 100%;
+  }
+  body header .internal-header > :nth-child(1) > :nth-child(2) {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: row wrap;
+            flex-flow: row wrap;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    gap: 1.8vh;
+  }
+  body header .internal-header > :nth-child(1) > :nth-child(2) > :nth-child(1) span {
+    font-size: 15px;
+    font-weight: 700;
+  }
+  body header .internal-header > :nth-child(1) > :nth-child(2) > :nth-child(2) {
+    width: 100%;
+    max-width: 3.5vh;
+  }
+  body header .internal-header > :nth-child(1) > :nth-child(2) > :nth-child(2) img {
+    width: 100%;
+  }
+  body header .internal-header > :nth-child(2) h1 {
+    font-weight: 800;
+    font-size: 20px;
+  }
+  body header .internal-header > :nth-child(2) p {
+    font-size: 16px;
+  }
+}
+body section {
+  background: #01638A;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  place-content: center;
+  padding: 20px 0px;
+}
+body section .internal-section {
+  height: 95%;
+  width: 92.5%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column wrap;
+          flex-flow: column wrap;
+}
+body section .internal-section .services h2 {
+  font-size: 25px;
+  color: white;
+  font-weight: 700;
+}
+body section .internal-section .contain-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column wrap;
+          flex-flow: column wrap;
+  gap: 1.2vh;
+}
+body section .internal-section .contain-section > :nth-child(1), body section .internal-section .contain-section > :nth-child(2), body section .internal-section .contain-section > :nth-child(3) {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 50px;
+}
+body section .internal-section .contain-section > :nth-child(1) > :nth-child(1), body section .internal-section .contain-section > :nth-child(2) > :nth-child(1), body section .internal-section .contain-section > :nth-child(3) > :nth-child(1) {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background: white;
+  border-radius: 30px;
+  width: 25%;
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  place-content: center;
+  padding: 0px 10px;
+}
+body section .internal-section .contain-section > :nth-child(1) > :nth-child(1) h3, body section .internal-section .contain-section > :nth-child(2) > :nth-child(1) h3, body section .internal-section .contain-section > :nth-child(3) > :nth-child(1) h3 {
+  font-weight: bold;
+  font-size: 25px;
+}
+body section .internal-section .contain-section > :nth-child(1) > :nth-child(2), body section .internal-section .contain-section > :nth-child(2) > :nth-child(2), body section .internal-section .contain-section > :nth-child(3) > :nth-child(2) {
+  width: 62.5%;
+}
+body section .internal-section .contain-section > :nth-child(1) > :nth-child(2) h4, body section .internal-section .contain-section > :nth-child(2) > :nth-child(2) h4, body section .internal-section .contain-section > :nth-child(3) > :nth-child(2) h4 {
+  font-size: 25px;
+  color: white;
+  font-weight: 700;
+}
+body section .internal-section .contain-section > :nth-child(1) > :nth-child(2) p, body section .internal-section .contain-section > :nth-child(2) > :nth-child(2) p, body section .internal-section .contain-section > :nth-child(3) > :nth-child(2) p {
+  font-size: 25px;
+  color: white;
+}
+
+@media (max-width: 1160px) {
+  body section {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: row wrap;
+            flex-flow: row wrap;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    place-content: center;
+  }
+  body section .internal-section {
+    height: 95%;
+    width: 95%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column wrap;
+            flex-flow: column wrap;
+  }
+  body section .internal-section .services h2 {
+    font-size: 22px;
+    color: white;
+  }
+  body section .internal-section .contain-section {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column wrap;
+            flex-flow: column wrap;
+    gap: 10px;
+  }
+  body section .internal-section .contain-section > :nth-child(1), body section .internal-section .contain-section > :nth-child(2), body section .internal-section .contain-section > :nth-child(3) {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column nowrap;
+            flex-flow: column nowrap;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    gap: 10px;
+  }
+  body section .internal-section .contain-section > :nth-child(1) > :nth-child(1), body section .internal-section .contain-section > :nth-child(2) > :nth-child(1), body section .internal-section .contain-section > :nth-child(3) > :nth-child(1) {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    background: white;
+    border-radius: 30px;
+    width: 50.5%;
+    text-align: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    place-content: center;
+    padding: 0px 10px;
+  }
+  body section .internal-section .contain-section > :nth-child(1) > :nth-child(1) h3, body section .internal-section .contain-section > :nth-child(2) > :nth-child(1) h3, body section .internal-section .contain-section > :nth-child(3) > :nth-child(1) h3 {
+    font-weight: bold;
+    font-size: 22px;
+  }
+  body section .internal-section .contain-section > :nth-child(1) > :nth-child(2), body section .internal-section .contain-section > :nth-child(2) > :nth-child(2), body section .internal-section .contain-section > :nth-child(3) > :nth-child(2) {
+    width: 60%;
+  }
+  body section .internal-section .contain-section > :nth-child(1) > :nth-child(2) h4, body section .internal-section .contain-section > :nth-child(2) > :nth-child(2) h4, body section .internal-section .contain-section > :nth-child(3) > :nth-child(2) h4 {
+    font-size: 20px;
+  }
+  body section .internal-section .contain-section > :nth-child(1) > :nth-child(2) p, body section .internal-section .contain-section > :nth-child(2) > :nth-child(2) p, body section .internal-section .contain-section > :nth-child(3) > :nth-child(2) p {
+    font-size: 20px;
+  }
+}
+@media (max-width: 800px) {
+  body section {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: row wrap;
+            flex-flow: row wrap;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    place-content: center;
+  }
+  body section .internal-section {
+    height: 95%;
+    width: 95%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column wrap;
+            flex-flow: column wrap;
+  }
+  body section .internal-section .services h2 {
+    font-size: 16px;
+    font-weight: 800;
+  }
+  body section .internal-section .contain-section {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column wrap;
+            flex-flow: column wrap;
+    gap: 10px;
+  }
+  body section .internal-section .contain-section > :nth-child(1), body section .internal-section .contain-section > :nth-child(2), body section .internal-section .contain-section > :nth-child(3) {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column nowrap;
+            flex-flow: column nowrap;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    gap: 10px;
+  }
+  body section .internal-section .contain-section > :nth-child(1) > :nth-child(1), body section .internal-section .contain-section > :nth-child(2) > :nth-child(1), body section .internal-section .contain-section > :nth-child(3) > :nth-child(1) {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    background: white;
+    border-radius: 30px;
+    width: 60.5%;
+    text-align: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    place-content: center;
+    padding: 0px 5px;
+  }
+  body section .internal-section .contain-section > :nth-child(1) > :nth-child(1) h3, body section .internal-section .contain-section > :nth-child(2) > :nth-child(1) h3, body section .internal-section .contain-section > :nth-child(3) > :nth-child(1) h3 {
+    font-weight: bold;
+    font-size: 16px;
+  }
+  body section .internal-section .contain-section > :nth-child(1) > :nth-child(2), body section .internal-section .contain-section > :nth-child(2) > :nth-child(2), body section .internal-section .contain-section > :nth-child(3) > :nth-child(2) {
+    width: 80%;
+  }
+  body section .internal-section .contain-section > :nth-child(1) > :nth-child(2) h4, body section .internal-section .contain-section > :nth-child(2) > :nth-child(2) h4, body section .internal-section .contain-section > :nth-child(3) > :nth-child(2) h4 {
+    font-size: 16px;
+  }
+  body section .internal-section .contain-section > :nth-child(1) > :nth-child(2) p, body section .internal-section .contain-section > :nth-child(2) > :nth-child(2) p, body section .internal-section .contain-section > :nth-child(3) > :nth-child(2) p {
+    font-size: 16px;
+  }
+}
+body footer {
+  width: 100%;
+  background: #A2C8D5;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  place-content: center;
+  padding: 20px 0px;
+}
+body footer .internal-footer {
+  height: 95%;
+  width: 92.5%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column wrap;
+          flex-flow: column wrap;
+  gap: 35px;
+}
+body footer .internal-footer > :nth-child(1) h3 {
+  font-weight: 800;
+  font-size: 25px;
+}
+body footer .internal-footer > :nth-child(2) {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: start;
+  place-content: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+body footer .internal-footer > :nth-child(2) > :nth-child(1), body footer .internal-footer > :nth-child(2) > :nth-child(2), body footer .internal-footer > :nth-child(2) > :nth-child(3) {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column wrap;
+          flex-flow: column wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  place-content: center;
+  background: #01638A;
+  border-radius: 30px;
+  width: 30%;
+  padding: 20px 0px;
+}
+body footer .internal-footer > :nth-child(2) > :nth-child(1) > :nth-child(1), body footer .internal-footer > :nth-child(2) > :nth-child(2) > :nth-child(1), body footer .internal-footer > :nth-child(2) > :nth-child(3) > :nth-child(1) {
+  width: 90%;
+  height: 90%;
+  text-align: center;
+}
+body footer .internal-footer > :nth-child(2) > :nth-child(1) > :nth-child(1) h5, body footer .internal-footer > :nth-child(2) > :nth-child(2) > :nth-child(1) h5, body footer .internal-footer > :nth-child(2) > :nth-child(3) > :nth-child(1) h5 {
+  font-size: 20px;
+  font-weight: 800;
+  color: white;
+}
+body footer .internal-footer > :nth-child(2) > :nth-child(1) > :nth-child(1) p, body footer .internal-footer > :nth-child(2) > :nth-child(2) > :nth-child(1) p, body footer .internal-footer > :nth-child(2) > :nth-child(3) > :nth-child(1) p {
+  font-size: 18px;
+  color: white;
+}
+body footer .internal-footer > :nth-child(3) {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+body footer .internal-footer > :nth-child(3) > :nth-child(1) p {
+  font-size: 15px;
+  font-weight: 700;
+}
+body footer .internal-footer > :nth-child(3) > :nth-child(2) {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row nowrap;
+          flex-flow: row nowrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 2.5vh;
+}
+body footer .internal-footer > :nth-child(3) > :nth-child(2) > :nth-child(1) p {
+  font-size: 15px;
+  font-weight: 700;
+}
+body footer .internal-footer > :nth-child(3) > :nth-child(2) > :nth-child(2) {
+  width: 100%;
+  max-width: 6.4vh;
+}
+body footer .internal-footer > :nth-child(3) > :nth-child(2) > :nth-child(2) img {
+  width: 100%;
+}
+
+@media (max-width: 1160px) {
+  body footer {
+    width: 100%;
+    background: #A2C8D5;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: row wrap;
+            flex-flow: row wrap;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    place-content: center;
+  }
+  body footer .internal-footer {
+    height: 95%;
+    width: 92.5%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column wrap;
+            flex-flow: column wrap;
+    gap: 35px;
+  }
+  body footer .internal-footer > :nth-child(1) h3 {
+    font-size: 22px;
+  }
+  body footer .internal-footer > :nth-child(2) {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column wrap;
+            flex-flow: column wrap;
+    gap: 10px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    place-content: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  body footer .internal-footer > :nth-child(2) > :nth-child(1), body footer .internal-footer > :nth-child(2) > :nth-child(2), body footer .internal-footer > :nth-child(2) > :nth-child(3) {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column wrap;
+            flex-flow: column wrap;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    place-content: center;
+    background: #01638A;
+    border-radius: 30px;
+    width: 60%;
+    padding: 10px 0px;
+  }
+  body footer .internal-footer > :nth-child(2) > :nth-child(1) > :nth-child(1), body footer .internal-footer > :nth-child(2) > :nth-child(2) > :nth-child(1), body footer .internal-footer > :nth-child(2) > :nth-child(3) > :nth-child(1) {
+    width: 90%;
+    height: 90%;
+    text-align: center;
+  }
+  body footer .internal-footer > :nth-child(2) > :nth-child(1) > :nth-child(1) h5, body footer .internal-footer > :nth-child(2) > :nth-child(2) > :nth-child(1) h5, body footer .internal-footer > :nth-child(2) > :nth-child(3) > :nth-child(1) h5 {
+    font-size: 18px;
+    font-weight: 800;
+    color: white;
+  }
+  body footer .internal-footer > :nth-child(2) > :nth-child(1) > :nth-child(1) p, body footer .internal-footer > :nth-child(2) > :nth-child(2) > :nth-child(1) p, body footer .internal-footer > :nth-child(2) > :nth-child(3) > :nth-child(1) p {
+    font-size: 17px;
+    color: white;
+  }
+  body footer .internal-footer > :nth-child(3) {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column wrap;
+            flex-flow: column wrap;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  body footer .internal-footer > :nth-child(3) > :nth-child(1) p {
+    font-size: 13px;
+    font-weight: 700;
+  }
+  body footer .internal-footer > :nth-child(3) > :nth-child(2) {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: row nowrap;
+            flex-flow: row nowrap;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    gap: 2vh;
+  }
+  body footer .internal-footer > :nth-child(3) > :nth-child(2) > :nth-child(1) p {
+    font-size: 13px;
+    font-weight: 700;
+  }
+  body footer .internal-footer > :nth-child(3) > :nth-child(2) > :nth-child(2) {
+    width: 100%;
+    max-width: 4.5vh;
+  }
+  body footer .internal-footer > :nth-child(3) > :nth-child(2) > :nth-child(2) img {
+    width: 100%;
+  }
+}
+@media (max-width: 800px) {
+  body footer .internal-footer {
+    height: 95%;
+    width: 92.5%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column wrap;
+            flex-flow: column wrap;
+    gap: 25px;
+  }
+  body footer .internal-footer > :nth-child(1) h3 {
+    font-size: 16px;
+  }
+  body footer .internal-footer > :nth-child(2) {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column wrap;
+            flex-flow: column wrap;
+    gap: 10px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    place-content: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  body footer .internal-footer > :nth-child(2) > :nth-child(1), body footer .internal-footer > :nth-child(2) > :nth-child(2), body footer .internal-footer > :nth-child(2) > :nth-child(3) {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column wrap;
+            flex-flow: column wrap;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    place-content: center;
+    background: #01638A;
+    width: 80%;
+    border-radius: 30px;
+    padding: 10px 0px;
+  }
+  body footer .internal-footer > :nth-child(2) > :nth-child(1) > :nth-child(1), body footer .internal-footer > :nth-child(2) > :nth-child(2) > :nth-child(1), body footer .internal-footer > :nth-child(2) > :nth-child(3) > :nth-child(1) {
+    width: 90%;
+    height: 90%;
+    text-align: center;
+  }
+  body footer .internal-footer > :nth-child(2) > :nth-child(1) > :nth-child(1) h5, body footer .internal-footer > :nth-child(2) > :nth-child(2) > :nth-child(1) h5, body footer .internal-footer > :nth-child(2) > :nth-child(3) > :nth-child(1) h5 {
+    font-size: 16px;
+    font-weight: 800;
+    color: white;
+  }
+  body footer .internal-footer > :nth-child(2) > :nth-child(1) > :nth-child(1) p, body footer .internal-footer > :nth-child(2) > :nth-child(2) > :nth-child(1) p, body footer .internal-footer > :nth-child(2) > :nth-child(3) > :nth-child(1) p {
+    font-size: 15px;
+    color: white;
+  }
+  body footer .internal-footer > :nth-child(3) > :nth-child(1) p {
+    font-size: 13px;
+    font-weight: 700;
+  }
+  body footer .internal-footer > :nth-child(3) > :nth-child(2) {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: row nowrap;
+            flex-flow: row nowrap;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    gap: 2vh;
+  }
+  body footer .internal-footer > :nth-child(3) > :nth-child(2) > :nth-child(1) p {
+    font-size: 13px;
+    font-weight: 700;
+  }
+  body footer .internal-footer > :nth-child(3) > :nth-child(2) > :nth-child(2) {
+    width: 100%;
+    max-width: 3.5vh;
+  }
+  body footer .internal-footer > :nth-child(3) > :nth-child(2) > :nth-child(2) img {
+    width: 100%;
+  }
+}
